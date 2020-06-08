@@ -1,7 +1,9 @@
 /************Doc style****************/
 * {
 	box-sizing: border-box;
-
+}
+body {
+  background-color: #e0fbfc;
 }
 /************h1****************/
 h1 {
@@ -9,12 +11,11 @@ font-size: 30px;
 text-align: center;
 font-family: "Comic Sans MS", cursive, sans-serif;
 margin: 20px;
-
 }
 
 /************Box****************/
 div.box {
-	background-color: #A9A9A9;
+	background-color: #f4a261;
 	border: 1px solid black;
   margin: 5px;
 }
@@ -22,7 +23,7 @@ div.box {
 /************Title****************/
 h2#Chicken {
 	font-size: 16px;
-	background-color: pink;
+	background-color: #98c1d9;
 	text-align: center;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-weight: bold;
@@ -57,7 +58,6 @@ h2#Sushi {
   margin: 0px;
 
 }
-
 p.discription {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 14px;
@@ -66,13 +66,11 @@ p.discription {
   clear: both;
 
 }
-
 /************Columns****************/
 .box {
   float: left;
   width: 32%;
 }
-
 /************Media devices****************/
 /************Large****************/
 /*@media (min-width: 992px) {
@@ -87,10 +85,9 @@ p.discription {
   width: 98.2%;
   }
 }
-
 /************Small****************/
 @media (max-width: 767px) {
 .col-1, .col-2, .col-3 {
   width: 98%;
-}
+  }
 }
