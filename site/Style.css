@@ -1,0 +1,35 @@
+h1 {
+	color: red; 
+	font-size: 250%;
+	background-color: grey;
+}
+
+#name {
+	color: #0000ff; 
+	background-color: grey;
+	font-size: 4em;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+li {
+	color: black;
+	font-size: 200%;
+	background-color: brown;
+	font-family: "Comic Sans MS", cursive, sans-serif
+
+}
+
+.red {
+	color: red;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.orange {
+	color: orange;
+}

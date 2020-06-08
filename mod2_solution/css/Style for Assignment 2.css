@@ -1,0 +1,96 @@
+/************Doc style****************/
+* {
+	box-sizing: border-box;
+
+}
+/************h1****************/
+h1 {
+font-size: 30px;
+text-align: center;
+font-family: "Comic Sans MS", cursive, sans-serif;
+margin: 20px;
+
+}
+
+/************Box****************/
+div.box {
+	background-color: #A9A9A9;
+	border: 1px solid black;
+  margin: 5px;
+}
+
+/************Title****************/
+h2#Chicken {
+	font-size: 16px;
+	background-color: pink;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	border: 1px solid black;
+  width: 100px;
+  float: right;
+  margin: 0px;
+
+}
+h2#Beef {
+	color: white;
+	font-size: 16px;
+	background-color: #DC143C;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	border: 1px solid black;
+  width: 100px;
+  float: right;
+  margin: 0px;
+
+}
+h2#Sushi {
+	font-size: 16px;
+	background-color: #e4e4a1;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	border: 1px solid black;
+  width: 100px;
+  float: right;
+  margin: 0px;
+
+}
+
+p.discription {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 14px;
+  text-align: center;
+	padding:10px 10px 10px 10px;
+  clear: both;
+
+}
+
+/************Columns****************/
+.box {
+  float: left;
+  width: 32%;
+}
+
+/************Media devices****************/
+/************Large****************/
+/*@media (min-width: 992px) {
+}*/
+
+/************Medium****************/
+@media (max-width: 991px) and (min-width:768px) {
+.col-1, .col-2 {
+  width: 48.5%;
+  }
+.col-3 {
+  width: 98.2%;
+  }
+}
+
+/************Small****************/
+@media (max-width: 767px) {
+.col-1, .col-2, .col-3 {
+  width: 98%;
+}
+}

@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	clear: both;
+	display: table;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	height: 300px;
+}
+
+@media (min-width: 992px) {
+	.column {
+		width: : 100%;
+	}
+}
+@media (max-width: 991px) and (min-width:768px) {
+	.column {
+		width: 33.33%;
+	}
+}
