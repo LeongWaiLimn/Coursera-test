@@ -1,0 +1,137 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #010cb1;
+}
+
+#header-nav{
+	background-color: #eded44;
+}
+
+
+.navbar-header {
+	height: 80px;
+}
+
+
+.navbar-header {
+	width: 350px;
+}
+
+.navbar-header, h1 {
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-left: 10px;
+
+}
+
+button.navbar-toggle {
+	margin: -55px 0px 0px 0px;
+	background-color: #c9f5fe;
+}
+
+#menu-items a:hover{
+	text-decoration: none;
+}
+
+.Our-menu-title h2 { /*****Our Menu*****/
+	font-size: 3em;
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+#chicken-tile {
+	background-color: #eded44;
+	font-weight: bold;
+}
+
+#chicken-tile h3{  /*****Chicken*****/
+	font-size: 2em;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+#beef-tile {
+	background-color: #eded44;
+	font-weight: bold;
+}
+
+#beef-tile h3{  /*****beef*****/
+	font-size: 2em;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+
+#sushi-tile {
+	background-color: #eded44;
+	font-weight: bold;
+}
+
+#sushi-tile h3{  /*****sushi*****/
+	font-size: 2em;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+		#collapsable-nav {
+		background-color:#eded44;
+		border-top: none;
+		border-bottom: none;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#collapsable-nav {
+		background-color:#eded44;
+		border-top: none;
+		border-bottom: none;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#collapsable-nav {
+		background-color:#eded44;
+		border-top: none;
+		border-bottom: none;
+	}	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+	#collapsable-nav {
+		background-color: #c9f5fe;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+		}
+
+	#nav-list span {
+		color: #010cb1;
+		font-size: 1.6em;
+		font-weight: bold;
+	}
+
+
+	#beef-button {
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		}
+}
