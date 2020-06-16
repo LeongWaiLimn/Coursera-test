@@ -10,17 +10,14 @@ body {
 
 .navbar-header {
 	height: 80px;
-}
-
-
-.navbar-header {
 	width: 350px;
 }
+
 
 .navbar-header, h1 {
 	font-size: 1.6em;
 	font-weight: bold;
-	padding-left: 10px;
+	padding-left: 5px;
 
 }
 
@@ -28,6 +25,8 @@ button.navbar-toggle {
 	margin: -55px 0px 0px 0px;
 	background-color: #c9f5fe;
 }
+
+
 
 #menu-items a:hover{
 	text-decoration: none;
@@ -43,6 +42,7 @@ button.navbar-toggle {
 #chicken-tile {
 	background-color: #FFDE00;
 	font-weight: bold;
+	padding-left: 10px;
 }
 
 #chicken-tile h3{  /*****Chicken*****/
@@ -54,6 +54,7 @@ button.navbar-toggle {
 #beef-tile {
 	background-color: #FFDE00;
 	font-weight: bold;
+	padding-left: 10px;
 }
 
 #beef-tile h3{  /*****beef*****/
@@ -66,12 +67,14 @@ button.navbar-toggle {
 #sushi-tile {
 	background-color: #FFDE00;
 	font-weight: bold;
+	padding-left: 10px;
 }
 
 #sushi-tile h3{  /*****sushi*****/
 	font-size: 2em;
 	padding-bottom: 5px;
 	font-weight: bold;
+
 }
 
 
@@ -87,29 +90,17 @@ button.navbar-toggle {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-		#collapsable-nav {
-		background-color:#FFDE00;
-		border-top: none;
-		border-bottom: none;
-	}
+
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-	#collapsable-nav {
-		background-color:#FFDE00;
-		border-top: none;
-		border-bottom: none;
-	}
+
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	#collapsable-nav {
-		background-color:#FFDE00;
-		border-top: none;
-		border-bottom: none;
-	}	
+
 }
 
 /********** Extra small devices only **********/
@@ -117,8 +108,9 @@ button.navbar-toggle {
 
 	#collapsable-nav {
 		background-color: #c9f5fe;
-		border-top: 1px solid white;
-		border-bottom: 1px solid white;
+		border-top: 1px solid #00017a;
+		border-bottom: 1px solid #00017a;
+		height: 180px;
 		}
 
 	#nav-list span {
@@ -127,11 +119,20 @@ button.navbar-toggle {
 		font-weight: bold;
 	}
 
+	#nav-list a {
+		height: 51px;
+	}
 
-	#beef-button {
-		border-top: 1px solid white;
-		border-bottom: 1px solid white;
+	#nav-list #beef-button {
+		border-top: 1px solid #00017a;
+		border-bottom: 1px solid #00017a;
+		height: 60px;
 		padding-top: 15px;
-		padding-bottom: 15px;
-		}
+	}
+
+	#nav-list #sushi-button {
+		padding-top: 15px;
+		padding-bottom: 0px;
+	}
+
 }
