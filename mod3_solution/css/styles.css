@@ -1,10 +1,10 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	color: #010cb1;
+	color: #00017a;
 }
 
 #header-nav{
-	background-color: #eded44;
+	background-color: #FFDE00;
 }
 
 
@@ -41,7 +41,7 @@ button.navbar-toggle {
 }
 
 #chicken-tile {
-	background-color: #eded44;
+	background-color: #FFDE00;
 	font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ button.navbar-toggle {
 }
 
 #beef-tile {
-	background-color: #eded44;
+	background-color: #FFDE00;
 	font-weight: bold;
 }
 
@@ -64,7 +64,7 @@ button.navbar-toggle {
 
 
 #sushi-tile {
-	background-color: #eded44;
+	background-color: #FFDE00;
 	font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ button.navbar-toggle {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 		#collapsable-nav {
-		background-color:#eded44;
+		background-color:#FFDE00;
 		border-top: none;
 		border-bottom: none;
 	}
@@ -97,7 +97,7 @@ button.navbar-toggle {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 	#collapsable-nav {
-		background-color:#eded44;
+		background-color:#FFDE00;
 		border-top: none;
 		border-bottom: none;
 	}
@@ -106,7 +106,7 @@ button.navbar-toggle {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 	#collapsable-nav {
-		background-color:#eded44;
+		background-color:#FFDE00;
 		border-top: none;
 		border-bottom: none;
 	}	
@@ -122,7 +122,7 @@ button.navbar-toggle {
 		}
 
 	#nav-list span {
-		color: #010cb1;
+		color: #00017a;
 		font-size: 1.6em;
 		font-weight: bold;
 	}
