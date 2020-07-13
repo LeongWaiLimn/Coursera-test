@@ -130,18 +130,36 @@
 
 
 
-<ul class="nav nav-tabs">
-  ...
-  <li role="presentation" class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-      Dropdown <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-      ...
-    </ul>
-  </li>
-  ...
-</ul>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Cell Serum</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Skin Repair</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Mandarin Clear</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">Cure Passion</button>
+
+<button class="tablink" onclick="openPage('Home', this, 'red')">Acne</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Facial Mask</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Live Balance</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">Facial Cleansing</button>
+
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div> 
 
 
 
