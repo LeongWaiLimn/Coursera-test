@@ -26,8 +26,22 @@
 
 // console.log(person);
 
-//for loops
+// //for loops
 
-for(let i = 0; i < 10; i++) {
-	console.log(i)
-}
+// for(let i = 0; i < 10; i++) {
+// 	console.log(i)
+// }
+
+// //single element
+// console.log(document.getElementById('myID'));
+// console.log(document.querySelector('h1'));
+
+// //multiple element
+// console.log(document.querySelectorAll('.item'));
+// console.log(document.getElementByClassName('item'));
+
+
+
+
+
+
